@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col justify-center items-left text-[35px] max-md:text-[20px] max-md:w-[100%] w-[40%] h-[75%] gap-5 max-md:h-[50%]">
         <h1 className="max-md:text-center">
-          Welcome To An<span className="text-indigo-400 text-[40px]">Y</span>mey
+          Welcome To Waa<span className="text-indigo-400 text-[40px]">Ni</span>Me
         </h1>
         <h1 className=" max-md:text-center">
           Your one-stop solution for finding anime, manga.

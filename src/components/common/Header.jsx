@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import { ModeToggle } from "../ModeToggle";
 import { Input } from "../ui/input";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -90,9 +91,11 @@ const Header = () => {
         isHeaderVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <h1 className="text-2xl font-semibold">
-        An<span className="text-4xl text-neutral-500">Y</span>meY
-      </h1>
+      <Link href="/pages/Anime">
+        <h1 className="text-2xl font-semibold cursor-pointer">
+          Waa<span className="text-4xl text-neutral-500">Ni</span>Me
+        </h1>
+      </Link>
       <NavigationMenu />
       <div
         onClick={() => setIsSearchBarToggled(true)}
