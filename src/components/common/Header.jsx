@@ -91,7 +91,7 @@ const Header = () => {
         isHeaderVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <Link href="/pages/Anime">
+      <Link href="/">
         <h1 className="text-2xl font-semibold cursor-pointer">
           Waa<span className="text-4xl text-neutral-500">Ni</span>Me
         </h1>
